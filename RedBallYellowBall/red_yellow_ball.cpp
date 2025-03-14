@@ -89,8 +89,14 @@ int main() {
 
         string guess = "";
         cout << "\n" << "Guess the sequence of the bags (e.g., ABCDE): " << endl;
+        cout << "-- if you want to exit the game, please enter \"EXIT\" --" << endl;
         cin >> guess;
         transform(guess.begin(), guess.end(), guess.begin(), ::toupper);
+
+        if (guess == "EXIT") {
+            return 0;
+        }
+
 
         if (guess == order) {
             cout << "\nYou guess the correct order of bags!" << endl;
