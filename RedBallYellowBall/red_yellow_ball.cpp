@@ -94,6 +94,8 @@ int main() {
         transform(guess.begin(), guess.end(), guess.begin(), ::toupper);
 
         if (guess == "EXIT") {
+            cout << "\nThe answer is " << order << endl;
+            cout << "--- EXIT the game ---" << endl;
             return 0;
         }
 
