@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crazy Spin!</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div>
+            <h3>這是一個輪盤賭注遊戲</h3>
+        </div>
+
+        <div>
+            <p id="rule" onclick="showRule()">查看遊戲規則</p>
+        </div>
+        
+        <div>
+            <p id="wallet" onclick="showChips()">CHIPS</p>
+        </div>
+        
+        <div id="bet_option">
+            <div>
+                <label for="bet_num">賭注數字</label>
+                <input type="number" id="bet_num" name="betNum"> 
+            </div>
+            <div>
+                <label for="bet_amount">下注金額</label>
+                <input type="number" id="bet_amount" name="betAmount"> 
+            </div>  
+        </div>
+        
+        <div>
+            <button onclick="showSpin()">Spin!</button>
+        </div>
+
+        <div>
+            <div id="wheel">
+                <script>
+                    for (let i = 1; i <= 36; i++) {
+                        let adjustedIndex = i - 1;
+                        document.write(`<div class="number" style="--i:${adjustedIndex}">${i}</div>`);
+                    }
+                </script>
+            </div>
+
+            <div class="pointer"></div>
+        </div>
+
+    </div>
+
+</body>
+</html>
