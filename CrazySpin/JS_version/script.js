@@ -30,7 +30,7 @@ function showSpin() {
     if (isNaN(amount) || amount <= 0) {
         window.alert("請輸入有效的下注金額");
 
-        if (number > 36 || number < 1 || number == 1) {
+        if (number > 36 || number < 1) {
             window.alert("請輸入 1 到 36 之間的數字");
         }
 
