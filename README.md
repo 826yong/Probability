@@ -15,4 +15,4 @@
 * 使用者可選一個 36 的倍數，作為賭注的數字（賭轉盤會轉到該樹的倍數）
 * 且由使用者輸入下注金額（不超過原先籌碼）
 * 若猜中會獲得相對應的金額，反之，下注金額將扣除
-* [JS版本](https://826yong.github.io/Probability/CrazySpin/JS_version/index.html)
+* [JS版本](https://826yong.github.io/Probability/CrazySpin/JS_version/index.html) 帳號: admin 密碼: 1234
