@@ -76,3 +76,8 @@ function showSpin() {
     }, 3000);
 
 }
+
+function logOut() {
+    window.alert("確定登出?");
+    window.location.href="https://826yong.github.io/Website/login/login.html";
+}
