@@ -13,10 +13,10 @@ function showRule() {
 
 function showChips() {
     let chips = document.getElementById("wallet");
-    if (chips.innerHTML === "CHIPS") {
+    if (chips.innerHTML === "錢包") {
         chips.innerHTML = yourChips;
     } else {
-        chips.innerHTML = "CHIPS";
+        chips.innerHTML = "錢包";
     }
 }
 
@@ -78,6 +78,14 @@ function showSpin() {
 }
 
 function logOut() {
+    localStorage.removeItem("isLoggedIn");
     window.alert("確定登出?");
     window.location.href="https://826yong.github.io/Website/login/login.html";
+}
+
+window.onload = function() {
+    if (localStorage.getItem("isLoggedIn") !== "true") {
+        alert("請先登入!");
+        window.location.href = "https://826yong.github.io/Website/login/login.html";
+    }
 }
