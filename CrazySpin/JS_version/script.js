@@ -29,14 +29,16 @@ function showSpin() {
 
     if (isNaN(amount) || amount <= 0) {
         window.alert("請輸入有效的下注金額");
+        return;
+    }
+    
+    if (number > 36 || number < 1) {
+        window.alert("請輸入 1 到 36 之間的數字");
+        return;
+    }
 
-        if (number > 36 || number < 1) {
-            window.alert("請輸入 1 到 36 之間的數字");
-        }
-
-        if ((36 % number) != 0) {
-            window.alert("賭注數字並非 36 的因數");
-        }
+    if ((36 % number) != 0) {
+        window.alert("賭注數字並非 36 的因數");
         return;
     }
 
