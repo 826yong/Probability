@@ -60,6 +60,10 @@ button:hover {
     font-weight: bold;
     transform: rotate(calc(var(--i) * 10deg)) translate(0, -130px) rotate(calc(var(--i) * -10deg));
 }
+#wheel_all {
+    position: relative;
+    width: 30%;
+}
 #wheel {
     position: relative;
     width: 300px;
@@ -74,7 +78,7 @@ button:hover {
 }
 .pointer {
     position: absolute;
-    top: 50%;
+    top: 380px;
     left: 50%;
     width: 10px;
     height: 30px;
