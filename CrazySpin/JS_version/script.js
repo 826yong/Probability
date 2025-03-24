@@ -81,8 +81,12 @@ function showSpin() {
 
 function logOut() {
     localStorage.removeItem("isLoggedIn");
-    window.alert("確定登出?");
-    window.location.href="https://826yong.github.io/Website/login/login.html";
+    let result = window.confirm("確定登出?");
+    if (result) {
+        window.location.href = "https://826yong.github.io/Website/login/login.html";
+    } else {
+        console.log("取消登入");
+    }
 }
 
 window.onload = function() {
