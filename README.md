@@ -19,3 +19,4 @@
 
 #### Other -- 文學與音樂賞析期中作業
 * 新詩 + 配樂
+* [連結](https://826yong.github.io/Probability/Other/index.html)
