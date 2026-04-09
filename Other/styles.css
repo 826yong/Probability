@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 25px 35px 15px 35px;
+    border-radius: 15px;
+    background-image: url("sky.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.audio_area {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.intro {
+    color: #fafafad8;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.btn {
+    border: none;
+    border-radius: 15px;
+    background-color: #F1F3F4;
+    padding: 10px;
+    color: #272219;
+    text-decoration: none;
+}
+
+.poem {
+    font-family: "LXGW WenKai TC", cursive;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.poem p {
+    margin: 7px;
+}
+
+.poem span {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.me {
+    color: #F1F3F4;
+    text-align: center;
+    align-self: flex-end;
+}

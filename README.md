@@ -1,5 +1,5 @@
 # Probability
-### 機率課程中的程式練習
+### 主要為機率課程中的程式練習
 #### GuessNumber -- 1A2B 簡化版
 * 和 1A2B 猜數字遊戲類似，改成兩位數
 * 由已猜過的組合與其結果，計算猜中的機率
@@ -16,3 +16,6 @@
 * 且由使用者輸入下注金額（不超過原先籌碼）
 * 若猜中會獲得相對應的金額，反之，下注金額將扣除
 * [JS版本](https://826yong.github.io/Probability/CrazySpin/JS_version/index.html) 帳號: admin 密碼: 1234
+
+#### Other -- 文學與音樂賞析期中作業
+* 新詩 + 配樂
